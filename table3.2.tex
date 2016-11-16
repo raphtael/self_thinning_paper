@@ -1,0 +1,16 @@
+\begin{tabular}{llcccccc}
+\toprule
+& & \multicolumn{3}{c}{mortality count} & \multicolumn{3}{c}{mortality rate} \\ \cmidrule(lr){3-5}\cmidrule(lr){6-8}
+ &  & $R^2$ & $RMSE$ & $BIAS$ & $R^2$ & $RMSE$ & \multicolumn{1}{c}{$BIAS$} \\ 
+\midrule
+\multicolumn{2}{l}{E. delegatensis} \\  & NB GLM  & $0.93$ & $\phantom{-}52.4$ & $\phantom{0}\phantom{-}9.5$ & $0.78$ & $0.018$ & $\phantom{-}0.006$ \\
+ & Poisson GLM  & $0.90$ & $\phantom{-}62.1$ & $\phantom{-}19.8$ & $0.75$ & $0.019$ & $\phantom{-}0.007$ \\
+ & NLS  & $0.93$ & $\phantom{-}50.8$ & $\phantom{0}\phantom{-}4.7$ & $0.81$ & $0.017$ & $\phantom{-}0.002$ \\
+\multicolumn{2}{l}{E. regnans} \\  & NB GLM  & $0.70$ & $\phantom{0}\phantom{-}6.0$ & $\phantom{0}-1.2$ & $0.55$ & $0.011$ & $-0.004$ \\
+ & Poisson GLM  & $0.66$ & $\phantom{0}\phantom{-}6.4$ & $\phantom{0}-1.7$ & $0.46$ & $0.012$ & $-0.006$ \\
+ & NLS  & $0.54$ & $\phantom{0}\phantom{-}7.4$ & $\phantom{0}-4.2$ & $0.11$ & $0.016$ & $-0.012$ \\
+\multicolumn{2}{l}{E. sieberi} \\  & NB GLM  & $0.80$ & $\phantom{-}17.2$ & $\phantom{0}\phantom{-}0.7$ & $0.63$ & $0.008$ & $-0.001$ \\
+ & Poisson GLM  & $0.81$ & $\phantom{-}16.7$ & $\phantom{0}-3.1$ & $0.60$ & $0.009$ & $-0.003$ \\
+ & NLS  & $0.65$ & $\phantom{-}22.6$ & $-14.1$ & $0.28$ & $0.012$ & $-0.009$ \\
+\bottomrule 
+\end{tabular}
